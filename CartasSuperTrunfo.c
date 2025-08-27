@@ -8,7 +8,34 @@
 
 int main() {
     printf ("Desafio super trunfo \n");
-    
+    char estado[50];
+    char codigo_carta[50];
+    char nome_cidade[50];
+    int populacao;
+    float area, pib;
+    int pontos_turisticos;
+
+    printf("Digite seu estado: \n");
+    scanf("%s", estado);
+
+    printf("Digite o codigo da carta: \n");
+    scanf("%s", codigo_carta);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", nome_cidade);
+
+    printf("Digite a população: \n");
+    scanf("%d", &populacao);
+
+    printf("Digite a área: \n");
+    scanf("%f", &area);
+
+    printf("Digite o pib: \n");
+    scanf("%f", pib);
+
+    printf("Digite os pontos turisticos: \n");
+    scanf("%d", &pontos_turisticos);
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
